@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
         disposeCallback: LocationCallbackHandler.disposeCallback,
         autoStop: false,
         iosSettings: const IOSSettings(
-            accuracy: LocationAccuracy.NAVIGATION, distanceFilter: 0),
+            accuracy: LocationAccuracy.NAVIGATION, distanceFilter: 5),
         androidSettings: const AndroidSettings(
             accuracy: LocationAccuracy.NAVIGATION,
             interval: 180,
